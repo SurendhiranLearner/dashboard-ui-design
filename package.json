@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",
